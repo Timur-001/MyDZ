@@ -21,3 +21,7 @@ int[] GetArray(int[] array)
     return array;
 }
 GetArray(array);
+
+Console.WriteLine(String.Join(" ", array));
+
+Console.WriteLine("количество четных чисел в массиве "+count);
